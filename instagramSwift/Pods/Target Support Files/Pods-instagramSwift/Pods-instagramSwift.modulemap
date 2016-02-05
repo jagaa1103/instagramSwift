@@ -1,0 +1,6 @@
+framework module Pods_instagramSwift {
+  umbrella header "Pods-instagramSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
