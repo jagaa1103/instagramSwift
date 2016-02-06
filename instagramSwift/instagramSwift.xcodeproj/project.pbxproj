@@ -14,6 +14,8 @@
 		11C2DD061C64CCFB00ADECA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C2DD041C64CCFB00ADECA5 /* LaunchScreen.storyboard */; };
 		11C2DD111C64CCFB00ADECA5 /* instagramSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2DD101C64CCFB00ADECA5 /* instagramSwiftTests.swift */; };
 		11C2DD1C1C64CCFB00ADECA5 /* instagramSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2DD1B1C64CCFB00ADECA5 /* instagramSwiftUITests.swift */; };
+		11C2DD2A1C6513FE00ADECA5 /* InstagramLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2DD291C6513FE00ADECA5 /* InstagramLoginService.swift */; };
+		11C2DD2C1C66660B00ADECA5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2DD2B1C66660B00ADECA5 /* WebViewController.swift */; };
 		2726F132CD766C389321DCED /* Pods_instagramSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00BA50A88D2AF9F6D4793DD /* Pods_instagramSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		11C2DD171C64CCFB00ADECA5 /* instagramSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instagramSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C2DD1B1C64CCFB00ADECA5 /* instagramSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagramSwiftUITests.swift; sourceTree = "<group>"; };
 		11C2DD1D1C64CCFB00ADECA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C2DD291C6513FE00ADECA5 /* InstagramLoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramLoginService.swift; sourceTree = "<group>"; };
+		11C2DD2B1C66660B00ADECA5 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		4861E0EF04CF7CC50A9BC786 /* Pods-instagramSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagramSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-instagramSwift/Pods-instagramSwift.release.xcconfig"; sourceTree = "<group>"; };
 		58AD3C14E60C5625F930CA27 /* Pods-instagramSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagramSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instagramSwift/Pods-instagramSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		C00BA50A88D2AF9F6D4793DD /* Pods_instagramSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instagramSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,12 +108,14 @@
 		11C2DCFA1C64CCFB00ADECA5 /* instagramSwift */ = {
 			isa = PBXGroup;
 			children = (
+				11C2DD2B1C66660B00ADECA5 /* WebViewController.swift */,
 				11C2DCFB1C64CCFB00ADECA5 /* AppDelegate.swift */,
 				11C2DCFD1C64CCFB00ADECA5 /* ViewController.swift */,
 				11C2DCFF1C64CCFB00ADECA5 /* Main.storyboard */,
 				11C2DD021C64CCFB00ADECA5 /* Assets.xcassets */,
 				11C2DD041C64CCFB00ADECA5 /* LaunchScreen.storyboard */,
 				11C2DD071C64CCFB00ADECA5 /* Info.plist */,
+				11C2DD291C6513FE00ADECA5 /* InstagramLoginService.swift */,
 			);
 			path = instagramSwift;
 			sourceTree = "<group>";
@@ -333,6 +339,8 @@
 			files = (
 				11C2DCFE1C64CCFB00ADECA5 /* ViewController.swift in Sources */,
 				11C2DCFC1C64CCFB00ADECA5 /* AppDelegate.swift in Sources */,
+				11C2DD2A1C6513FE00ADECA5 /* InstagramLoginService.swift in Sources */,
+				11C2DD2C1C66660B00ADECA5 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +483,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = instagramSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = SmartmongolTeam.instagramSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmartmongolTeam.instagramSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -487,7 +495,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = instagramSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = SmartmongolTeam.instagramSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SmartmongolTeam.instagramSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

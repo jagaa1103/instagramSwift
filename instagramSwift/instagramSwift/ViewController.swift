@@ -21,5 +21,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func SignInClicked(sender: AnyObject) {
+
+            InstagramLoginService().login()
+    }
 }
 
